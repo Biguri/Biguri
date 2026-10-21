@@ -23,16 +23,16 @@ Também trabalho com React, JavaScript e CSS na integração entre interfaces e 
 
 ## Projeto em destaque
 
-### [Dashboard de Agendamentos](https://github.com/Biguri/Dashboard)
+### [Dashboard do Governo — Viagens Federais 2025](https://github.com/Biguri/Dashboarb_Governo)
 
-Aplicação em Python e Streamlit para analisar relatórios Excel de agendamentos, com autenticação pelo Supabase e histórico separado por clínica.
+Dashboard interativo em Python para explorar gastos com viagens do Governo Federal em 2025, a partir de dados públicos do Portal da Transparência.
 
-- **Problema:** facilitar a análise de relatórios de atendimento e a consulta de importações anteriores.
-- **Solução:** upload de planilhas, análise dos dados e armazenamento do histórico.
-- **Decisão técnica:** isolamento dos dados por clínica no PostgreSQL com Row Level Security (RLS), associado ao usuário autenticado.
-- **Stack:** Python · Streamlit · Supabase · PostgreSQL.
+- **Problema:** transformar registros de viagens, passagens, trechos e pagamentos em informações fáceis de consultar.
+- **Solução:** indicadores e gráficos de gastos por órgão e cargo, rotas mais percorridas, despesas mensais com passagens e média de pagamentos por viagem por órgão.
+- **Decisão técnica:** agregação dos dados com Pandas, visualizações interativas com Plotly e cache de leitura no Streamlit.
+- **Stack:** Python · Pandas · Plotly · Streamlit.
 
-[Consultar código e instruções de execução →](https://github.com/Biguri/Dashboard)
+[Consultar código e documentação →](https://github.com/Biguri/Dashboarb_Governo)
 
 ## Interesses técnicos
 
